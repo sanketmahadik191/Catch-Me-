@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: grab;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.2s ease-in;
+    background: linear-gradient(45deg, #f39c12, #c0392b);
+    border: 2px solid #d35400;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #f39c12, #c0392b);
+    /* Change these color codes */
+    border: 2px solid #d35400;
+    /* Change this color code */
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
